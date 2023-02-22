@@ -18,10 +18,10 @@ class Store
 
     attr_writer :name, :color, :price
 
-    def initialize(name, color, price)
-        @name = name
-        @color = color
-        @price = price
+    def initialize(flowers)
+        @name = flowers[:name]
+        @color = flowers[:color]
+        @price = flowers[:price]
     end
 
     def name
@@ -50,7 +50,7 @@ class Store
 
 end
 
-flower = Store.new("Delphinium", "blue", 5)
+flower = Store.new(name: "Delphinium", color: "blue", price: 5)
 flower.name
 flower.color
 flower.price
