@@ -16,6 +16,8 @@
 
 class Store
 
+    attr_writer :name, :color, :price
+
     def initialize(name, color, price)
         @name = name
         @color = color
@@ -26,25 +28,25 @@ class Store
         return @name
     end
 
-    def name=(text)
-        @name = text
-    end
+    # def name=(text)
+    #     @name = text
+    # end
 
     def color
         return @color
     end
 
-    def color=(text)
-        @color = text
-    end
+    # def color=(text)
+    #     @color = text
+    # end
 
     def price
         return @price
     end
 
-    def price=(number)
-        @price = number
-    end
+    # def price=(number)
+    #     @price = number
+    # end
 
 end
 
