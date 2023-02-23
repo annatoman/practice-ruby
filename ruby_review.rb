@@ -27,6 +27,9 @@ info = []
     first_name = gets.chomp
     last_name = gets.chomp
     email = gets.chomp
+        if email.index("@") == nil || email.index(".com") == nil
+            puts "invalid email"
+        end
     account = rand(10 ** 10)
     people["first_name"] = first_name
     people["last_name"] = last_name
@@ -43,3 +46,17 @@ while i < info.length
     puts "ACCOUNT #: #{info[i]["account"]}"
     i = i + 1
 end
+
+puts "Enter an account number:"
+account_number = gets.chomp.to_i
+
+i = 0
+while i < info.length
+    if account_number == info[i]["account"]
+        puts "FIRST NAME: #{info[i]["first_name"]}"
+        puts "LAST NAME: #{info[i]["last_name"]}"
+        puts "EMAIL: #{info[i]["email"]}"
+    end
+    i = i + 1
+end
+
