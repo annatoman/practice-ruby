@@ -27,11 +27,6 @@ class Store
 
 end
 
-flower = Store.new(name: "Delphinium", color: "blue", price: 5)
-flower.name
-flower.color
-flower.price
+class Vases
 
-puts "This flower shop sells " + flower.name + "'s"
-puts flower.name + " flowers are usually the color " + flower.color
-puts "At the flower shop, the price of " + flower.name + " is " + flower.price.to_s + " dollars."
+end
