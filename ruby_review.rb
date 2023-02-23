@@ -7,4 +7,14 @@ fave_foods = []
     fave_foods << food
 end
 
-p fave_foods
+# i = 0
+# 5.times do
+#     puts "I love #{fave_foods[i]}"
+#     i = i + 1
+# end
+
+i = 0
+5.times do
+    puts "#{i + 1}. #{fave_foods[i]}"
+    i = i + 1
+end
