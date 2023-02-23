@@ -1,52 +1,29 @@
-# Ruby Syntax
-
-# flower_one = {:name => "delphinium" :color => "blue", :price => 3}
-# flower_two = {:name => "rose", :color => "pink", :price => 5}
-# flower_three = {:name => "peony", :color => "coral", :price => 6}
-
-# puts "Anna has a flower shop where she sells #{flower_two[:name]}'s for #{flower_two[:price]}"
-
-# # Java Syntax
-
-# flower_one = {name: "delphinium" color: "blue", price: 3.95}
-# flower_two = {name: "rose", color: "pink", price: 5}
-# flower_three = {name: "peony", color: "coral", price: 6}
-
-# Class Method
-
 class Store
 
-    attr_writer :name, :color, :price
+    attr_writer :name, :color, :price, :wholesaler
 
     def initialize(flowers)
         @name = flowers[:name]
         @color = flowers[:color]
         @price = flowers[:price]
+        @wholesaler = flowers[:wholesaler]
     end
 
     def name
         return @name
     end
 
-    # def name=(text)
-    #     @name = text
-    # end
-
     def color
         return @color
     end
-
-    # def color=(text)
-    #     @color = text
-    # end
 
     def price
         return @price
     end
 
-    # def price=(number)
-    #     @price = number
-    # end
+    def wholesaler
+        return @wholesaler
+    end
 
 end
 

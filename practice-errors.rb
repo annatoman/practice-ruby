@@ -37,4 +37,6 @@ end
 
 tj = Person.new("Thomas", "Jefferson")
 puts tj.fname
-puts tj
+puts tjhi
+hi
+hi
