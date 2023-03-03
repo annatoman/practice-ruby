@@ -84,21 +84,21 @@ puts "Problem 3:"
 
 # 9. Write a while loop that asks the user to enter a word and will run forever until the user enters a word with more than 5 letters.
 
-puts "Problem 9:"
+# puts "Problem 9:"
 
-while true
-    puts "Enter a word:"
-    word = gets.chomp
-    if word.length > 5
-        break
-    end
-end
+# while true
+#     puts "Enter a word:"
+#     word = gets.chomp
+#     if word.length > 5
+#         break
+#     end
+# end
 
 # 10. Write a while loop that prints the even numbers from 2 to 40.
 
-puts "Problem 10:"
-number = 2
-while number <= 40
-    p number
-    number = number + 2
-end
+# puts "Problem 10:"
+# number = 2
+# while number <= 40
+#     p number
+#     number = number + 2
+# end
