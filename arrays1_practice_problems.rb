@@ -1,14 +1,15 @@
 # 1. Create an array to store 3 words. Then add two more words to the array and print the array on one line.
 
-names = ["Charles", "Harry", "William"]
-names << "Diana"
-names << "Kate"
+words = ["happy", "sad", "asi asi"]
+words << "delighted"
+words << "excited"
 
-p names
+p words
 
 # 2. Create an array to store 4 letters. Then change the second letter to a number and print the array on one line.
 
-letters = ["A", "B", "C", "D"]
+letters = ["a", "b", "c", "d"]
+
 letters[1] = 2
 
 p letters
@@ -16,48 +17,49 @@ p letters
 # 3. Create an array to store 5 numbers. Then print out each number on separate lines with a while loop.
 
 numbers = [1, 2, 3, 4, 5]
+
 i = 0
 while i < numbers.length
-    puts numbers[i]
+    p numbers[i]
     i += 1
 end
 
 # 4. Create an array to store 1 number. Then add three more numbers to the array and print the array on one line.
 
-array = [1]
-array << 2
-array << 3
-array << 4
+numbers = [1]
+numbers << 2
+numbers << 3
+numbers << 3
 
-p array
+p numbers
 
 # 5. Create an array to store 3 strings with lower case letters. Then change the third string to have all capital letters and print the array on one line.
 
-states = ["wisconsin", "louisiana", "texas"]
-states[2] = states[2].upcase
+strings = ["texas", "utah", "wiscansin"]
+strings[2] = strings[2].upcase
 
-p states
+p strings
 
 # 6. Create an array to store 3 names. Then print out each name on separate lines with a while loop.
 
-names = ["kate", "william", "george"]
+names = ["Hannah", "Louise", "Frederick"]
 i = 0
 while i < names.length
-    puts names[i]
+    p names[i]
     i += 1
 end
 
 # 7. Create an array to store 2 strings. Then add one string to the array and print the array on one line.
 
-names = ["kate", "william", "diana"]
-names << "charles"
+movies = ["Drop Dead Fred", "Drop Dead Gorgeous"]
+movies << "Hannah"
 
-p names
+p movies
 
 # 8. Create an array to store 5 numbers. Then change the first number to 10 times its original value and print the array on one line.
 
 numbers = [1, 2, 3, 4, 5]
-numbers[0] = numbers[0] * 10
+numbers[0] = numbers[0]* 10
 p numbers
 
 # 9. Create an array to store 2 numbers. Then print out each number on separate lines with a while loop.
@@ -71,6 +73,6 @@ end
 
 # 10. Create an array to store names of 3 different countries. Then add one more country and print the array one line.
 
-countries = ["Spain", "Portugal", "France"]
+countries = ["France", "Portugal", "Spain"]
 countries << "UK"
 p countries
