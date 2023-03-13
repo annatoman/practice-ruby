@@ -73,4 +73,8 @@ p triple(20, 40, 8)
 
 # 10. Write a function that takes in a number and returns the number times 10 plus 30. Then run the function and print the result.
 
-def 
+def equation(number)
+    return (number * 10) + 30
+end
+
+p equation(5)
