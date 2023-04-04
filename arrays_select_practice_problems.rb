@@ -258,7 +258,7 @@ p low_prices
 prices = [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}]
 low_prices = []
 prices.each do |price|
-    if price[:price] < 101
+    if price[:price] < 10
         low_prices << price
     end
 end
